@@ -8,7 +8,7 @@ on:
 env:
   # Setting registry and image name
   REGISTRY: docker.io
-  IMAGE_NAME: arxway/nodeapp:latest
+  IMAGE_NAME: sandvinicus/nodeapp:latest
 
 jobs:
     publish:
