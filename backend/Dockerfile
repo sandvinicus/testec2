@@ -1,7 +1,7 @@
 ﻿FROM node:16
 
 
-WORKDIR .
+WORKDIR /backend
 
 
 RUN npm i pg
