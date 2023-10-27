@@ -29,7 +29,7 @@ services:
       - database
     restart: always
   backend:
-    image: arxway/nodeapp
+    image: sandvinicus/nodeapp
     networks:
       itsnetwork:
         ipv4_address: 10.0.0.14
